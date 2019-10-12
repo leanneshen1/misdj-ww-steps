@@ -6,6 +6,7 @@
 ![Step1](img/1.jpeg)
 
 - 下載到你的工作區域
+以我的例子，我是放在 /Users/pinglingchen/19/misdj/ww
 
 ```
 $ pwd
