@@ -5,3 +5,19 @@
 
 ![Step1](img/1.jpeg)
 
+- 下載到你的工作區域
+
+```
+$ pwd
+/Users/pinglingchen/19
+$ cd misdj
+$ ls
+2019ww		dj		misdj001	shen		ww
+amy		misdj		misdj002	venv
+$ . venv/bin/activate
+(venv) $ cd ww
+(venv) $ ls
+misdj005-master.zip
+(venv) $ 
+```
+
