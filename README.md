@@ -119,4 +119,5 @@ Quit the server with CONTROL-C.
 ```
 
 - 用流覧器查看主頁，效果如下，這是我們今天的共同起點。
+
 ![Step1](img/2.png)
