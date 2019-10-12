@@ -21,6 +21,7 @@ class Wk(models.Model):
     # https://www.epochconverter.com/weeks/2019
     # Week 01	December 31, 2018	January 6, 2019
 ```
+![Step1](img/7.png)
 
 ## 4. 打開 admin 檔案, 加入以下代碼
 ![Step1](img/5.png)
