@@ -21,3 +21,29 @@ class Wk(models.Model):
     # https://www.epochconverter.com/weeks/2019
     # Week 01	December 31, 2018	January 6, 2019
 ```
+
+## 4. 打開 admin 檔案, 加入以下代碼
+![Step1](img/5.png)
+
+```
+# NOTE： WW project
+from .models import Wk
+class WkResource(resources.ModelResource):
+    class Meta:
+        model = Wk
+
+class WkAdmin(ImportExportModelAdmin):
+    resource_class = WkResource
+    # inlines = [BuyFoodDetInline,CookedInline]
+    list_display = ('yr','num', 'date1','date2')
+    list_filter = ['yr']
+    # search_fields = ['date1','data']
+   
+admin.site.register(Wk, WkAdmin)
+
+```
+
+
+## 5. 更新數據庫，自己加個超級用戶，啟動服務器
+![Step1](img/6.png)
+
