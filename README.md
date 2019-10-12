@@ -70,3 +70,50 @@ drwxr-xr-x@ 8 pinglingchen  staff    256 Oct 11 13:58 misdj005-master
 -rw-r--r--@ 1 pinglingchen  staff  21294 Oct 12 08:35 misdj005-master.zip
 (venv) $ 
 ```
+- 進入目錄, 用 tree 確認一下完整性，運行服務器
+
+```
+(venv) $ cd misdj005-master
+(venv) $ tree
+.
+├── README.md
+├── db.sqlite3
+├── manage.py
+├── misdj
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+└── note
+    ├── __init__.py
+    ├── admin.py
+    ├── apps.py
+    ├── migrations
+    │   ├── 0001_initial.py
+    │   ├── 0002_note_detail.py
+    │   ├── 0003_note_seq.py
+    │   ├── 0004_note002.py
+    │   ├── 0005_auto_20191010_1502.py
+    │   └── __init__.py
+    ├── models.py
+    ├── templates
+    │   └── note
+    │       ├── base.html
+    │       └── index.html
+    ├── tests.py
+    ├── urls.py
+    └── views.py
+
+5 directories, 22 files
+(venv) $ ./manage runserver
+-bash: ./manage: No such file or directory
+(venv) $ ./manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 12, 2019 - 00:56:15
+Django version 2.2.6, using settings 'misdj.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+```
