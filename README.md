@@ -3,5 +3,5 @@
 
 ## 1. 使用 Amy 的 https://github.com/amychenmit/misdj005 為起點
 
-![GitHub Logo](img/1.jpeg)
-Format: ![Alt Text](url)
+![Step1](img/1.jpeg)
+
