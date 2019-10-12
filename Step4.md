@@ -93,6 +93,9 @@ urlpatterns = [
 ## 4. result
 ![Step1](img/41.png)
 
+## 5. 驗証後台
+![Step1](img/43.png)
+
 ## 5. 如何做成表格格式，自己努力做，可以上網用各種方法查。
 
 ![Step1](img/42.png)
