@@ -48,3 +48,7 @@ admin.site.register(Wk, WkAdmin)
 ## 5. 更新數據庫，自己加個超級用戶，啟動服務器
 ![Step1](img/6.png)
 
+
+## 6. 按範例網站手動加上兩筆
+![Step1](img/8.png)
+
