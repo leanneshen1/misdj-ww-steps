@@ -14,3 +14,8 @@ git push -u origin master
 origin	https://github.com/twoutlook/misdj-ww.git (fetch)
 origin	https://github.com/twoutlook/misdj-ww.git (push)
 ```
+
+## 新建  app, ./manage.py startapp case001
+```
+(venv) leanneshendeMacBook-Air:misdj005-master leanneshen$ ./manage.py startapp case001
+```
